@@ -384,7 +384,7 @@ cal <- ggplot() +
                      expand = c(0,0.02)) +
   theme_bw() +
   labs(x = "Forecast",
-       y = "Percentage Correct") +
+       y = "Percent Observed") +
   theme(axis.title.x = element_text(size = 30),
         axis.title.y = element_text(size = 30),
         axis.text.x = element_text(size = 26),
